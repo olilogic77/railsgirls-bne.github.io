@@ -91,6 +91,7 @@ We have included three news gems to our project:
 
 **tux** allows us to interact with the database through the command line.
 
+*__Why?__ A Gemfile lists all the gems that we want to use in our project.  At the start we used sinatra, thin and shotgun to get going.  Now we're adding some more ...*
 
 ## *4.*Project Structure
 
