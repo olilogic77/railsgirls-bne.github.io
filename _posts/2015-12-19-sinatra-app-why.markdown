@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Ruby Girls Cloud9 Sinatra App
-permalink: sinatra-app-guide
+title: Ruby Girls Cloud9 Sinatra App - The Why?
+permalink: sinatra-app-guide-why
 ---
 
 # Ruby Girls Sinatra App Guide
@@ -15,13 +15,13 @@ permalink: sinatra-app-guide
 
 # Getting Started
 
-## *1.*Creating the application with Cloud9
+## *1.* Creating the application with Cloud9
 
 Follow the steps outlined in the Ruby Girls Cloud9 Sinatra Setup Guide [Could9 Setup](/cloud9-sinatra-guide)
 
 *__Why?__ With the plethora of operating systems and their versions, ruby versions, patches, gem versions and on and on it can take many frustrating hours just to get started with your coding.  This is where the beauty of [Cloud9](http://www.cloud9.com) comes in - it handles all of this for you, in the cloud, so you can have your projects set up just once and access from anywhere!  Now this doesn't mean you won't want to set up your own computer at some stage, but the good thing is it doesn't have to be today.  And when you're ready, there are many guides out there, but you probably want to have a Mac if you're serious about it, since nearly every Ruby programmer uses a Mac (or Linux if you're feeling adventurous).*
 
-## *2.*Locate the terminal window in Cloud9
+## *2.* Locate the terminal window in Cloud9
 
 There are three gems we will need to install before we can create a Sinatra project.
 
@@ -46,7 +46,7 @@ So for our case, these are the gems we're using:
 
 *
 
-## *3.*Create a Gemfile
+## *3.* Create a Gemfile
 
 We need to manually create a Gemfile for our app. This can be done from the terminal window or the Cloud9 file explorer window.
 
