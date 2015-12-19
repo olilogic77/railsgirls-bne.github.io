@@ -26,11 +26,11 @@ Follow the steps outlined in the Ruby Girls Cloud9 Sinatra Setup Guide [Could9 S
 There are three gems we will need to install before we can create a Sinatra project.
 
 To install these gems, enter the following commands in the terminal window:
-{% highlight sh %}
+,,,sh
 gem install sinatra
 gem install thin
 gem install shotgun
-{% endhighlight %}
+,,,
 
 *__Why?__ To start with, using the terminal is often faster and provides more options than using a user interface.  While it might seem in the world of Windows, Mac OSX and the web that everything uses a mouse, when programming for Ruby and using git its often easier using the terminal to do the things you need.  
 
