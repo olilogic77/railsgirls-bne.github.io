@@ -11,7 +11,7 @@ permalink: sinatra-app-guide
 ## What is Sinatra?
 <img src="/images/sinatrawiki.png">
 
-*_Why?_ Ruby on Rails is a great framework for creating a full web application, but sometimes you don't need all the bells and whistles and just need something small to get a basic web page or web api up and running.  Sinatra performs this task nicely, much like the master himself [performing](https://www.youtube.com/watch?v=xMfz1jlyQrw).*  
+*__Why?__ Ruby on Rails is a great framework for creating a full web application, but sometimes you don't need all the bells and whistles and just need something small to get a basic web page or web api up and running.  Sinatra performs this task nicely, much like the master himself [performing](https://www.youtube.com/watch?v=xMfz1jlyQrw).*  
 
 # Getting Started
 
@@ -19,7 +19,7 @@ permalink: sinatra-app-guide
 
 Follow the steps outlined in the Ruby Girls Cloud9 Sinatra Setup Guide [Could9 Setup](/cloud9-sinatra-guide)
 
-*_Why?_ With the plethora of operating systems and their versions, ruby versions, patches, gem versions and on and on it can take many frustrating hours just to get started with your coding.  This is where the beauty of [Cloud9](http://www.cloud9.com) comes in - it handles all of this for you, in the cloud, so you can have your projects set up just once and access from anywhere!  Now this doesn't mean you won't want to set up your own computer at some stage, but the good thing is it doesn't have to be today.  And when you're ready, there are many guides out there, but you probably want to have a Mac if you're serious about it, since nearly every Ruby programmer uses a Mac (or Linux if you're feeling adventurous).*
+*__Why?__ With the plethora of operating systems and their versions, ruby versions, patches, gem versions and on and on it can take many frustrating hours just to get started with your coding.  This is where the beauty of [Cloud9](http://www.cloud9.com) comes in - it handles all of this for you, in the cloud, so you can have your projects set up just once and access from anywhere!  Now this doesn't mean you won't want to set up your own computer at some stage, but the good thing is it doesn't have to be today.  And when you're ready, there are many guides out there, but you probably want to have a Mac if you're serious about it, since nearly every Ruby programmer uses a Mac (or Linux if you're feeling adventurous).*
 
 ## *2.*Locate the terminal window in Cloud9
 
@@ -32,17 +32,17 @@ gem install thin
 gem install shotgun
 {% endhighlight %}
 
-*_Why?_ To start with, using the terminal is often faster and provides more options than using a user interface.  While it might seem in the world of Windows, Mac OSX and the web that everything uses a mouse, when programming for Ruby and using git its often easier using the terminal to do the things you need.  
+*__Why?__ To start with, using the terminal is often faster and provides more options than using a user interface.  While it might seem in the world of Windows, Mac OSX and the web that everything uses a mouse, when programming for Ruby and using git its often easier using the terminal to do the things you need.  
 
 Then we get to _gems_.  Gems are like the building blocks used within Ruby to provide already built bits of code that perform specific functions.  Think of a bit of code that you need to write, and odds are someone already has done it - especially if its a common task (known as _patterns_) (eg [user names and authentication](https://rubygems.org/gems/devise)).  
 
 So for our case, these are the gems we're using:
 
-- The first gem `sinatra` allows us to use the Sinatra DSL (Domain Specific Language) in our app.
+1. The first gem `sinatra` allows us to use the Sinatra DSL (Domain Specific Language) in our app.
 
-- `Thin` is a lightweight and fast web server whose job is to serve up web pages as they are requested.
+2. `Thin` is a lightweight and fast web server whose job is to serve up web pages as they are requested.
 
-- `Shotgun` is development server that reloads our application code with each request. This means we don't need to restart the server in order to see our changes.
+3. `Shotgun` is development server that reloads our application code with each request. This means we don't need to restart the server in order to see our changes.
 
 *
 
